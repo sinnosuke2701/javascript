@@ -1,15 +1,92 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
 
     <script>
+        var a = 10;
+        if (a > 20) {
+            // alert("a가 크다");
+        } else {
+            // alert("a가 작다");
+        }
 
+        var engscore = 57;
+
+        // if(engscore >= 90){
+        //     alert("A");
+        // } else if(engscore >= 80){
+        //     alert("B");
+        // } else if(engscore >= 70){
+        //     alert("C");
+        // } else if(engscore >= 60){
+        //     alert("D");
+        // } else {
+        //     alert("f");
+        // }
+
+
+        // if(engscore >= 90){
+        //     alert("A");
+        // } else if(engscore <= 89 && engscore >=80){
+        //     alert("B");
+        // } else if(engscore <= 79 && engscore >=70){
+        //     alert("C");
+        // } else if(engscore <= 69 && engscore >=60){
+        //     alert("D");
+        // } else{
+        //     alert("F");
+        // }
+
+        //90점 이상 a
+            //100 ~ 97 : a+
+            //96 ~ 94 : a0
+            //93 ~ 90 : a-
+        if(engscore >=90){
+            if(engscore >=97){
+                alert("a+");
+            } else if(engscore <= 96 && engscore >=94){
+                alert("a+");
+            } else{
+                alert("a-");
+            } 
+        } else if(engscore >=80){
+            if(engscore >=80){    
+                alert("b+");
+            } else if(engscore <= 86 && engscore >=84){
+                alert("b0");
+            } else{
+                alert("b-");
+            }   
+        } else if(engscore >=70){ 
+           if(engscore >= 70){
+                alert("c+");
+            } else if(engscore <= 76 && engscore >=74){
+                alert("c0");
+            } else{
+                alert("c-");
+            }
+        } else if(engscore >= 60){
+            if(engscore >= 60){
+                alert("d+");
+            } else if(engscore <= 66 && engscore >=64){
+                alert("d0");
+            } else{
+                alert("d-");
+            } 
+        } else{
+            alert("f");
+        }
+
+        
     </script>
 </body>
+
 </html>
