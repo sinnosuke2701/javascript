@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
 
     <script>
+        //반복문
         // for(let i=1; i <= 3; i++){
         //     alert("do");
         // }
@@ -24,6 +27,107 @@
         // for(let i=1; i <= 3; i++){
         //     alert("do");
         // }
+
+        // 1~10합
+        // var sum = 0;
+        // for(let i=1; i<=10; i++){
+        //     sum += i;
+        //     alert(sum + " : " + i);
+        // }
+        // alert(sum);
+        //합쳐야 된다.
+        //결과변수에 누적 시킨다
+        //결과를 출력한다
+
+        // var num = 10;
+        // for(let i=15; i<=21; i++){
+        //     num += i;
+        //     alert(num + " : " + i);
+        // }
+
+        //2단
+        // var sum = 0;
+        // for (let i = 2; i <= 2; i++) {
+        //     for (let j = 1; j <= 9; j++) {
+        //         sum = i * j;
+        //         alert(i + "*" + j + "=" + sum);
+        //     }
+        // }
+
+        // var sum =0;
+        for (let i = 1; i <= 9; i++) {
+            // alert("2*" +i+"="+2*i);
+            console.log("2*" + i + "=" + 2 * i);
+        }
+        console.log("-----");
+
+        for (let i = 1; i <= 9; i++) {
+            console.log("3*" + i + "=" + 3 * i);
+        }
+        console.log("-----");
+
+        for (let i = 1; i <= 9; i++) {
+            console.log("4*" + i + "=" + 4 * i);
+        }
+        console.log("-----");
+
+        for (let i = 1; i <= 9; i++) {
+            console.log("5*" + i + "=" + 5 * i);
+        }
+        console.log("-----");
+
+        for (let i = 1; i <= 9; i++) {
+            console.log("6*" + i + "=" + 6 * i);
+        }
+        console.log("-----");
+
+        // 중첩 for
+        for (let i = 7; i <= 7; i++) {
+            for (let j = 1; j <= 9; j++) {
+                num = i * j;
+                console.log(i + "*" + j + "=" + num);
+            }
+        }
+        console.log("-----");
+
+        for (let i = 8; i <= 8; i++) {
+            for (let j = 1; j <= 9; j++) {
+                num = i * j;
+                console.log(i + "*" + j + "=" + num);
+            }
+        }
+        console.log("-----");
+
+        for (let i = 9; i <= 9; i++) {
+            for (let j = 1; j <= 9; j++) {
+                num = i * j;
+                console.log(i + "*" + j + "=" + num);
+            }
+        }
+        console.log("-----");
+
+        //2단 짝수만
+        for (let i = 1; i <= 9; i++) {
+            if (i % 2 == 1) {
+                console.log("2*" + i + "=" + 2 * i)
+            }
+        }
+        console.log("-----");
+
+        //2단 홀수만
+        for (let i = 1; i <= 9; i++) {
+            if (i % 2 == 0) {
+                console.log("2*" + i + "=" + 2 * i)
+            }
+        }
+        console.log("-----");
+
+        //*
+        //**
+        //***
+        //****
+        //*****
     </script>
 </body>
+
 </html>
