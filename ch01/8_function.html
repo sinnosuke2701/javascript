@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        //함수정의 = 변수선언 , 함수를 abc라고 정의함
+        // function abc() {
+        //     alert(function);
+        // }
+
+        // abc(); // 함수 사용
+
+        // function abc() {
+        //     alert("function");
+        // }
+
+        // qwer(1, 2);
+
+        // function qwer(num1, num2) {
+        //     alert(num1 + num2)
+        // }
+
+        // add(10,10);
+
+        function add(num1, num2) {
+            let result = num1 + num2;
+            alert(result);
+        }
+
+        // qwer(4, 2);
+
+        function qwer(num1, num2) {
+            alert(num1 + "+" + num2 + "=" + (num1 + num2))
+        }
+
+        function qwer(num1, num2) {
+            alert(num1 + "-" + num2 + "=" + (num1 - num2))
+        }
+
+        function qwer(num1, num2) {
+            alert(num1 + "*" + num2 + "=" + (num1 * num2))
+        }
+
+        function qwer(num1, num2) {
+            alert(num1 + "/" + num2 + "=" + (num1 / num2))
+        }
+
+        //return 사칙연산
+
+        function plus1(num1, num2) {
+            let result = num1 + num2;
+            return result;
+        }
+        var realresult = plus1(20, 10);
+        // alert(realresult);
+
+        function minus1(num1, num2) {
+            let result = num1 - num2;
+            return result;
+        }
+        var realresult = minus1(40, 20);
+        // alert(realresult);
+
+        function times1(num1,num2){
+            let result = num1 * num2;
+            return result;
+        }
+        var realresult = times1(40, 20);
+        // alert(realresult);
+
+        function divided1(num1,num2){
+            let result = num1 / num2;
+            return result;
+        }
+        var realresult = divided1(40, 20);
+        // alert(realresult);
+
+        //change
+        function change(num){
+            let num = num - 10;
+            return num - 10;
+        }
+        var num2 = change(50);
+        alert(num2);
+    </script>
+</body>
+
+</html>
