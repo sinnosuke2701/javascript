@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        //정수형 변수 두개 선언
+        //두 수를 비교하여 큰 수를 return
+        //출력 "변수1과 변수2 중 큰 수는 ? 입니다."
+        //출력도 함수화 할 것
+
+        // var num1 = 30; //num1 변수 선언
+        // var num2 = 20;  //num2 변수 선언
+        // // var largenum = (num1, num2); //return 값 호출
+        // var largenum = large(num1, num2);
+        // aaa(num1,num2,largenum);
+
+        // function large(num1, num2) {
+        //     let result = num1 > num2 ? num1 : num2;
+        //     return result;
+        // }
+        // function aaa(num1, num2, largenum) {
+        //     alert(num1 + "과" + num2 + " 중 큰 수는" + largenum + "입니다."); //결과 출력
+        // }
+
+        //---------------------------------------------------------------------------------------
+        // var num1 = 0; //num1 변수 선언
+        // var num2 = 0;  //num2 변수 선언
+
+        // function large(num1, num2) {
+        //     let result = num1 > num2 ? num1 : num2;
+        //     alert(num1 + "과" + num2 + " 중 큰 수는" + result + "입니다."); //결과 출력
+        // }
+
+        // large(30, 20); // 함수 출력
+
+        //-------------------------------------------------------------------------------------
+        //정수형 변수 1개 선언
+        //짝수 인지 홀수 인지 판단하는 함수
+        //"? 수는 짝수/홀수 입니다." 출력 하는 함수
+        // var num1 = 5;
+        // var realresult = nice(num1);
+        // call(num1, realresult);
+        // function nice(num1) {
+        //     let result = num1 % 2 == 0 ? "짝수" : "홀수";
+        //     return result;
+        // }
+        // function call(num1, realresult) {
+        //     alert(num1 + " 수는 " + realresult + " 입니다.");
+        // }
+
+        //-----if문 도전이라고고고고고고고고고고고고고고------------------------------------------------------------
+
+        // var num1 = 4;
+        // // var realresult = nice(num1);
+        // // call(num1, realresult);
+        // nice(num1);
+
+        // function nice(num1) {
+        //     if (num1 % 2 == 0) {
+        //         alert(num1 +"는 짝수 입니다.")
+        //     } else {
+        //         alert(num1 +"는 홀수 입니다.")
+        //     }
+        // }
+        
+        //----다른 방법-------------------------------------------------
+
+        var int3 = 11;
+        var stromg = addever(int3);
+        display(int3, string);
+
+        function addever(num){
+            let result;
+            if(num % 2 == 0){
+                result = "짝수";
+            }else{
+                result = "홀수";
+            }
+            return result;
+        }
+
+        function display(num, str){
+            if(num ==0){
+                alert("0은 그냥 0이다");
+            }else if (num < 0){
+                alert("음료수 넣지 마라.");
+            }else {
+                alert(num + "은/는" + str + " 입니다.");
+            }
+        }
+    </script>
+</body>
+
+</html>
